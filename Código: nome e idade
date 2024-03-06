@@ -1,0 +1,23 @@
+
+Algoritmo "nome_idade"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 06/03/2024
+
+Var
+// Seção de Declarações das variáveis 
+   Nome: caractere
+   Idade: caractere
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   ESCREVAL("Digite seu nome: ")
+   LEIA(Nome)
+   ESCREVAL("Digite sua idade: ")
+   LEIA(Idade)
+   ESCREVAL("O nome digitado = ", nome, " e a idade digitada:", idade, " anos")
+   ESCREVAL("Portanto, resultado = ", nome, " ", idade, " anos")
+
+Fimalgoritmo

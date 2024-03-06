@@ -1,0 +1,23 @@
+Algoritmo "ano_nascimento"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 06/03/2024
+
+Var
+// Seção de Declarações das variáveis 
+   Ano_atual:inteiro
+   Idade: inteiro
+   Ano_nascimento: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   ESCREVAL("Digite o ano_atual: ")
+   LEIA(ano_atual)
+   ESCREVAL("Digite sua idade: ")
+   LEIA(Idade)
+   Ano_nascimento <- ano_atual - idade
+   ESCREVAL("Se o ano_nascimento é: " , ano_atual - idade)
+
+Fimalgoritmo

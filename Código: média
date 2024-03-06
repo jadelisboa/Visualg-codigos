@@ -1,0 +1,26 @@
+Algoritmo "media"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 06/03/2024
+
+Var
+// Seção de Declarações das variáveis 
+   numero1: real
+   numero2: real
+   numero3: real
+   media:   real //(decimal)
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   ESCREVAL("Digite o numero1: ")
+   LEIA(numero1)
+   ESCREVAL("Digite o numero2: ")
+   LEIA(numero2)
+   ESCREVAL("Digite o numero3: ")
+   LEIA(numero3)
+   media <- (numero1 + numero2 + numero3) /3
+   ESCREVAL("A media dos numeros =  ", media)
+
+Fimalgoritmo
